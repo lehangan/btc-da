@@ -51,7 +51,7 @@ async function submitToBabylon(memoData) {
         // 3. Cấu hình phí và số tiền (Gửi 1 ubbn cho chính mình)
         const amount = { denom: BABYLON_DENOM, amount: "1" };
         const fee = {
-            amount: [{ denom: BABYLON_DENOM, amount: "2500" }], // Tăng fee lên chút cho mượt
+            amount: [{ denom: BABYLON_DENOM, amount: "500" }], // Tăng fee lên chút cho mượt
             gas: "250000",
         };
 
