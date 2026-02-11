@@ -1,0 +1,78 @@
+{
+    "chain": "engram",
+    "height": 275662,
+    "data": {
+        "block_id": {
+            "hash": "EE1A6F114DD89BA296188FD4032397489434AAB107F10B32B4315BDDA5F28970",
+            "parts": {
+                "total": 1,
+                "hash": "31C004F7020A7BF2B1633C61AE775547AB7F466ADF260531685A86CC1C3D3FE3"
+            }
+        },
+        "block": {
+            "header": {
+                "version": {
+                    "block": "11",
+                    "app": "6"
+                },
+                "chain_id": "private",
+                "height": "275662",
+                "time": "2026-02-09T10:36:08.396329231Z",
+                "last_block_id": {
+                    "hash": "770EF7F1A271D17D0988C415E5227AC54EEB636613A24AC64B11EE9572F12E5F",
+                    "parts": {
+                        "total": 1,
+                        "hash": "218470F539CDF8EBF1E6F0EFC09CDB5428569AA116DF65230672187B26D9B82C"
+                    }
+                },
+                "last_commit_hash": "020DC7EF6551FD7EDC6208362E9EBE00EE61EDB23C2B49C1549AFCE2F2149204",
+                "data_hash": "3D96B7D238E7E0456F6AF8E7CDF0A67BD6CF9C2089ECB559C659DCAA1F880353",
+                "validators_hash": "F8AD3893E3216DD1BDD3E3C18AB7D8E2DD3812BB6AA6C68B6894453A0DA4916F",
+                "next_validators_hash": "F8AD3893E3216DD1BDD3E3C18AB7D8E2DD3812BB6AA6C68B6894453A0DA4916F",
+                "consensus_hash": "3010BCE4084E97D799470DF8DE72F6983DD8AF1B7EB5050D29B7C541165DD1D6",
+                "app_hash": "DB0E46E6F6E89FA8428F90D021BE5A4747B08AEEEEBDF3EB9C6B3C36E7F0FAD1",
+                "last_results_hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "evidence_hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                "proposer_address": "99C409AE7AF2465A97E9B0070FB432FCF93AA0E5"
+            },
+            "data": {
+                "txs": [],
+                "square_size": "1"
+            },
+            "evidence": {
+                "evidence": []
+            },
+            "last_commit": {
+                "height": "275661",
+                "round": 0,
+                "block_id": {
+                    "hash": "770EF7F1A271D17D0988C415E5227AC54EEB636613A24AC64B11EE9572F12E5F",
+                    "parts": {
+                        "total": 1,
+                        "hash": "218470F539CDF8EBF1E6F0EFC09CDB5428569AA116DF65230672187B26D9B82C"
+                    }
+                },
+                "signatures": [
+                    {
+                        "block_id_flag": 2,
+                        "validator_address": "4E1F13441C1FA91D516829FBC19E3BC7749F7AF5",
+                        "timestamp": "2026-02-09T10:36:08.396386772Z",
+                        "signature": "ndBTBaVl0IQxorFT5pFDevzPF45NUPylZnc4ABDsQ/9OSzqWYiqj18TkemNTBZ6wiyBgKlHVIew4PtxnIkYBDQ=="
+                    },
+                    {
+                        "block_id_flag": 2,
+                        "validator_address": "99C409AE7AF2465A97E9B0070FB432FCF93AA0E5",
+                        "timestamp": "2026-02-09T10:36:08.323643462Z",
+                        "signature": "xBDOkJd3JDhhXVvng6ETvrE4LXq/iCcW/7Z7tdA1PcnC+yfkU4PtBbqAsaDjXbs/cxL3zGllZOWTZnUVdjHBDA=="
+                    },
+                    {
+                        "block_id_flag": 2,
+                        "validator_address": "5A8C388F7966DEC0A142B490D13DEC07DB9B17E0",
+                        "timestamp": "2026-02-09T10:36:08.396329231Z",
+                        "signature": "RG0F66VsG6V+drlUc+db7EY2Dp3iU9VVyTaSusJrhKlHH0A6VqxAKCg3hAw4aekc8jVP+yBdiEd7g1wNwPa6CQ=="
+                    }
+                ]
+            }
+        }
+    }
+}
