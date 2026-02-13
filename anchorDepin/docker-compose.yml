@@ -1,0 +1,14 @@
+services:
+  strata-archiver:
+    build: .
+    container_name: strata-archiver
+    restart: always
+    env_file:
+      - .env  # Tự động nạp toàn bộ biến từ file .env vào code
+    volumes:
+      # Gắn file để lưu tiến độ (Persistence)
+      - ./state.json:/app/state.json
+      # Gắn thư mục để lưu lịch sử archive ra máy thật
+      - ./anchorDepin:/app/anchorDepin
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
